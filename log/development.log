@@ -52980,3 +52980,565 @@ ActionController::RoutingError (No route matches [GET] "/fonts/lato-lig-webfont.
   Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
   Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
   Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-24 18:01:17 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3242ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=bath_world_development command={:count=>"shares", :query=>{}} runtime: 0.2007ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2437ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2337ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=bath_world_development command={:count=>"shares", :query=>{}} runtime: 0.2015ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1793ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1411ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=bath_world_development command={:count=>"shares", :query=>{}} runtime: 0.1369ms
+  Rendered welcome/index.html.erb within layouts/application (18.3ms)
+WARNING on line 295 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 445 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 462 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 479 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 496 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 513 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 530 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 547 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 564 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 581 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 598 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 615 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 632 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 649 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 666 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 683 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 700 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 717 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 734 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 751 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 768 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 785 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 802 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 819 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 836 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 853 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 870 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 887 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 904 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 921 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 938 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 954 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 971 of /home/egor/RubymineProjects/bath_world/app/assets/stylesheets/camera.sass:
+This selector doesn't have any properties and will not be rendered.
+
+Completed 200 OK in 525ms (Views: 524.5ms)
+
+
+Started GET "/fonts/lato-lig-webfont.woff" for 127.0.0.1 at 2015-08-24 18:01:18 +0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/lato-lig-webfont.woff"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.4ms)
+
+
+Started GET "/%3Cimg?1440428478940" for 127.0.0.1 at 2015-08-24 18:01:18 +0300
+
+ActionController::RoutingError (No route matches [GET] "/%3Cimg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.9ms)
+
+
+Started GET "/fonts/lato-lig-webfont.ttf" for 127.0.0.1 at 2015-08-24 18:01:19 +0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/lato-lig-webfont.ttf"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-24 18:01:54 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3197ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=bath_world_development command={:count=>"shares", :query=>{}} runtime: 0.1664ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2246ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1945ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=bath_world_development command={:count=>"shares", :query=>{}} runtime: 0.1955ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1595ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1683ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=bath_world_development command={:count=>"shares", :query=>{}} runtime: 0.1988ms
+  Rendered welcome/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 212ms (Views: 211.8ms)
+
+
+Started GET "/fonts/lato-lig-webfont.woff" for 127.0.0.1 at 2015-08-24 18:01:55 +0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/lato-lig-webfont.woff"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.8ms)
+
+
+Started GET "/%3Cimg%20src=?1440428515394" for 127.0.0.1 at 2015-08-24 18:01:55 +0300
+
+ActionController::RoutingError (No route matches [GET] "/%3Cimg%20src="):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.8ms)
+
+
+Started GET "/fonts/lato-lig-webfont.ttf" for 127.0.0.1 at 2015-08-24 18:01:55 +0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/lato-lig-webfont.ttf"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-24 18:02:35 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3309ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=bath_world_development command={:count=>"shares", :query=>{}} runtime: 0.2091ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2291ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1631ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=bath_world_development command={:count=>"shares", :query=>{}} runtime: 0.1600ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1655ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1953ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=bath_world_development command={:count=>"shares", :query=>{}} runtime: 0.1490ms
+  Rendered welcome/index.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 224ms (Views: 223.7ms)
+
+
+Started GET "/fonts/lato-lig-webfont.woff" for 127.0.0.1 at 2015-08-24 18:02:36 +0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/lato-lig-webfont.woff"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.2ms)
+
+
+Started GET "/%3Cimg?1440428556504" for 127.0.0.1 at 2015-08-24 18:02:36 +0300
+
+ActionController::RoutingError (No route matches [GET] "/%3Cimg"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.7ms)
+
+
+Started GET "/fonts/lato-lig-webfont.ttf" for 127.0.0.1 at 2015-08-24 18:02:36 +0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/lato-lig-webfont.ttf"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-24 18:03:15 +0300
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2887ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=bath_world_development command={:count=>"shares", :query=>{}} runtime: 0.1895ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1922ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1681ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=bath_world_development command={:count=>"shares", :query=>{}} runtime: 0.1655ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1421ms
+  MOPED: 127.0.0.1:27017 QUERY        database=bath_world_development collection=shares selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1345ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=bath_world_development command={:count=>"shares", :query=>{}} runtime: 0.1364ms
+  Rendered welcome/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 211ms (Views: 210.6ms)
+
+
+Started GET "/fonts/lato-lig-webfont.woff" for 127.0.0.1 at 2015-08-24 18:03:16 +0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/lato-lig-webfont.woff"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.0ms)
+
+
+Started GET "/fonts/lato-lig-webfont.ttf" for 127.0.0.1 at 2015-08-24 18:03:16 +0300
+
+ActionController::RoutingError (No route matches [GET] "/fonts/lato-lig-webfont.ttf"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.7ms)
