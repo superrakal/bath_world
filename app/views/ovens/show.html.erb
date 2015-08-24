@@ -1,0 +1,126 @@
+<div class="ovens">
+    <div class="headerLine">
+      <div id="menuF" class="default">
+        <div class="container">
+          <div class="row">
+            <div class="logo col-md-4">
+              <div>
+                <a href="/">
+                  <p class="text-uppercase">
+                    <i class="fa fa-university"></i>
+                    &nbsp;Банный мир
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="navmenu"style="text-align: center;">
+                <ul id="menu">
+                  <li><a href="/#home">Главная</a></li>
+                  <li><a href="/#about">О нас</a></li>
+                  <li><a href="/#catalog">Каталог</a></li>
+                  <li><a href="/#shares">Акции</a></li>
+                  <li class="last"><a href="/#contact">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 class="text-center text-uppercase">Название печи</h1>
+    </div>
+</div>
+<div class="container-fluid">
+  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 image">
+    <%=image_tag "demo.jpg", class:"img-thumbnail img-responsive"%>
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 properties">
+    <table class="table table-bordered">
+      <thead>
+      <tr>
+        <th>Характеристика</th>
+        <th>Значение</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th scope="row">Макс. объем парильного помещения, куб м.</th>
+        <td>4-9</td>
+      </tr>
+      <tr>
+        <th scope="row">Габаритные размеры (ДxШxВ), мм</th>
+        <td>660х415х605</td>
+      </tr>
+      <tr>
+        <th scope="row">Масса печи, кг</th>
+        <td>40</td>
+      </tr>
+      <tr>
+        <th scope="row">Масса закладываемых камней, кг</th>
+        <td>25</td>
+      </tr>
+      <tr>
+        <th scope="row">Объем каменки, л</th>
+        <td>10</td>
+      </tr>
+      <tr>
+        <th scope="row">Макс. длина полена, см</th>
+        <td>35</td>
+      </tr>
+      <tr>
+        <th scope="row">Диаметр дымохода, мм</th>
+        <td>115</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="col-md-12 sub-items">
+    <div class="container-fluid">
+      <h3 class="text-center text-uppercase">Модификации</h3>
+      <hr>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 sub-item">
+        <a class="fancybox" href=<%=image_path 'sub-demo2.jpg'%> rel="group" title="Название">
+            <%=image_tag "sub-demo2.jpg", class:"img-thumbnail img-responsive"%>
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 sub-item">
+        <a class="fancybox" href=<%=image_path 'sub-demo2.jpg'%> rel="group" title="Название">
+          <%=image_tag "sub-demo2.jpg", class:"img-thumbnail img-responsive"%>
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 sub-item">
+        <a class="fancybox" href=<%=image_path 'sub-demo2.jpg'%> rel="group" title="Название">
+          <%=image_tag "sub-demo2.jpg", class:"img-thumbnail img-responsive"%>
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 sub-item">
+        <a class="fancybox" href=<%=image_path 'sub-demo2.jpg'%> rel="group" title="Название">
+          <%=image_tag "sub-demo2.jpg", class:"img-thumbnail img-responsive"%>
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 sub-item">
+        <a class="fancybox" href=<%=image_path 'sub-demo2.jpg'%> rel="group" title="Название">
+          <%=image_tag "sub-demo2.jpg", class:"img-thumbnail img-responsive"%>
+        </a>
+      </div>
+      <hr>
+    </div>
+  </div>
+  <div class="col-md-12 description">
+    <h3 class="text-center text-uppercase">Описание</h3>
+    <blockquote>
+    <p>Компакт – печь хорошая. Маленькая, но хорошая. Настолько хорошая, что мы глазом моргнуть не успели, как пролетели десять лет её серийного выпуска. Нам говорят: ребята, имейте совесть. Обновили «Тунгуску», обновили «Ангару». А до «Компакта» когда у вас, наконец, руки дойдут? И решили мы «Компакт» перекомпактовать, перевыкомпактовать.
+
+      Мы придали ей современный внешний вид, проведя её третий по счёту рестайлинг. Увеличили объём каменки, выполнив тем самым главное пожелание пользователей печи «Компакт». Сделали центральное расположение дымохода, чтобы вам проще было её монтировать. Во всём остальном это всё та же самая, проверенная временем печь.
+
+      Если вы спросите, стала ли новая печь дороже предшественницы, то мы твёрдо ответим: нет. Поскольку давно уяснили себе, что небольшая цена на эту красивую фирменную печь – одно из самых главных её достоинств.</p>
+    </blockquote>
+  </div>
+
+</div>
+
+<script>
+    $(document).ready(function() {
+        $("a.fancybox").fancybox();
+    });
+</script>
