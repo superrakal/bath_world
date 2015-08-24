@@ -369,6 +369,3 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
   unicorn
   unicorn_service
-
-BUNDLED WITH
-   1.10.5
