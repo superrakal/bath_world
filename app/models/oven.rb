@@ -1,5 +1,7 @@
 class Oven
   include Mongoid::Document
+  include Mongoid::Paperclip
+
   field :max_volume
   field :dimensions
   field :weight
