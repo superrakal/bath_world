@@ -7,5 +7,6 @@ class OvensController < ApplicationController
   end
 
   def show
+    @item = Oven.find (params[:id])
   end
 end

@@ -10,11 +10,8 @@
         <div class="row">
           <div class="logo col-md-4">
             <div>
-              <a href="#">
-                <p class="text-uppercase">
-                  <i class="fa fa-university"></i>
-                  &nbsp;Банный мир
-                </p>
+              <a href="/">
+                <%=image_tag "logo.png", class:"logo"%>
               </a>
             </div>
           </div>
@@ -38,19 +35,16 @@
           <div class="camera_wrap camera_white_skin" id="camera_wrap_1">
             <div data-thumb="" data-src="<%=image_path "blank.gif"%>">
               <div class="img-responsive camera_caption fadeFromBottom">
-                <%=image_tag "slide3_bg.png"%>
                 <h2>Печи, котлы</h2>
               </div>
             </div>
             <div data-thumb="" data-src="<%=image_path "blank.gif"%>">
               <div class="img-responsive camera_caption fadeFromBottom">
-                <%=image_tag "slide2_bg.png"%>
                 <h2>Аксессуары</h2>
               </div>
             </div>
             <div data-thumb="" data-src="<%=image_path "blank.gif"%>">
               <div class="img-responsive camera_caption fadeFromBottom">
-                <%=image_tag "slide1_bg.png"%>
                 <h2>Комплектующие</h2>
               </div>
             </div>
@@ -155,9 +149,9 @@
     <div class="row">
       <div class="portfolio_block columns6   pretty" data-animated="fadeIn">
         <div class="element col-sm-6  col-lg-6 gall  text_styles">
-          <a class="plS" href="/ovens/index">
+          <%=link_to ovens_path, class:"plS" do%>
             <%=image_tag "demo.jpg" ,class:"responsive picsGall"%>
-          </a>
+          <%end%>
           <div class="view catalog_descr center">
             <h3><a href="#">Печи</a></h3>
             <ul style="opacity: 0 !important;">
@@ -274,10 +268,8 @@
           <li><i class="fa fa-phone"></i>8(7232)21-35-22, 8-776-463-44-11</li>
           <li><i class="fa fa-home"></i>ул. К.Касенова, д.80</li>
           <li><i class="fa fa-phone"></i>8(7232)25-70-96, 8-776-463-44-22</li>
-          <li><a href="#"><i class="fa fa-envelope"></i>mail@compname.com</li></a>
-          <li><i class="fa fa-skype"></i>compname</li>
+          <li><a href="#"><i class="fa fa-envelope"></i>Banniymir@mail.ru</li></a>
           <li><a href="http://vk.com/club100414305" target="_blank"><i class="fa fa-vk"></i>Вконтакте</li></a>
-          <li><a href="#"><i class="fa fa-odnoklassniki"></i>Одноклассники</li></a>
         </ul>
       </div>
     </div>

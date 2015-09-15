@@ -12,6 +12,8 @@ class Oven
   field :max_length
   field :diameter
 
+  field :description
+
   field :type
 
   has_many :modifications

@@ -6,10 +6,7 @@
           <div class="logo col-md-4">
             <div>
               <a href="/">
-                <p class="text-uppercase">
-                  <i class="fa fa-university"></i>
-                  &nbsp;Банный мир
-                </p>
+                <%=image_tag "logo.png", class:"logo"%>
               </a>
             </div>
           </div>
@@ -31,7 +28,7 @@
   </div>
 </div>
 <div class="col-md-12 items">
-  <%=link_to ovens_wood_stoves_path do%>
+  <%=link_to ovens_wood_stoves_path  do%>
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
         <div><%=image_tag "items/wood_stove.jpg", class:"img-responsive"%></div>
         <h3 class="text-center text-uppercase">Дровяные печи для бани</h3>
