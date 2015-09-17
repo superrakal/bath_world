@@ -11,3 +11,4 @@
 // about supported directives.
 //
 //= require fancybox
+//= require owl.carousel

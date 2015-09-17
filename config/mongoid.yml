@@ -60,7 +60,8 @@ development:
 
 
   # Configure Mongoid specific options. (optional)
-  options:
+  options: #strictly 2 spaces before
+    raise_not_found_error: false #strictly 4 spaces before not 6
     # Includes the root model name in json serialization. (default: false)
     # include_root_in_json: false
 

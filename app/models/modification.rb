@@ -3,6 +3,7 @@ class Modification
   include Mongoid::Paperclip
 
   field :name
+  belongs_to :oven
 
   has_mongoid_attached_file :image,
                             :styles => {
