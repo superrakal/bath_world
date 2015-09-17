@@ -53,3 +53,4 @@ end
 gem 'rails-i18n'
 gem 'ckeditor_rails'
 gem 'owlcarousel-rails'
+gem 'ckeditor_rails'

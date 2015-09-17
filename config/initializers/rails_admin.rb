@@ -31,4 +31,18 @@ RailsAdmin.config do |config|
     # history_index
     # history_show
   end
+  config.model WoodOven do
+    edit do
+      field :name
+      field :max_volume
+      field :dimensions
+      field :description, :ck_editor
+      field :weight
+      field :weight_of_stones
+      field :volume_of_heater
+      field :max_length
+      field :diameter
+      field :modifications
+    end
+  end
 end
