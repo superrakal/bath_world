@@ -77,8 +77,9 @@
       <hr>
       <div class="owl-carousel">
         <%-@item.modifications.each do |modification|%>
+
             <div class="sub-item">
-              <a class="fancybox" href=<%=modification.image.url%> rel="group" title=<%=modification.name %>>
+              <a class="fancybox" href=<%=modification.image.url%> rel="group" title="<%=modification.name %>">
                 <%=image_tag modification.image, class:"img-thumbnail img-responsive"%>
               </a>
             </div>
