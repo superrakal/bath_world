@@ -37,6 +37,7 @@ RailsAdmin.config do |config|
       field :max_volume
       field :dimensions
       field :description, :ck_editor
+      field :image
       field :weight
       field :weight_of_stones
       field :volume_of_heater
