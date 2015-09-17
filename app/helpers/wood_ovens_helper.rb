@@ -1,0 +1,2 @@
+module WoodOvensHelper
+end

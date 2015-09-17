@@ -1,0 +1,2 @@
+class WoodOven < Oven
+end
