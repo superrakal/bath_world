@@ -30,7 +30,7 @@
 <div class="col-md-12">
   <%- @items.each do |item| %>
       <%=link_to wood_oven_path (item.id) do%>
-          <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 item_image>
+          <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 item_image">
             <div><%=image_tag item.image.url(:original), class:"img-responsive img-thumbnail"%></div>
             <h3 class="text-center text-uppercase"><%=item.name%></h3>
           </div>
