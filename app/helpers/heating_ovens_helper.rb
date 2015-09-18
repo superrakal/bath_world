@@ -1,0 +1,2 @@
+module HeatingOvensHelper
+end
