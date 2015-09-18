@@ -48,7 +48,7 @@
         <th scope="row">Габаритные размеры (ДxШxВ), мм</th>
         <td><%=@item.dimensions%></td>
       </tr>
-      <%if @item.dimensions_with_stand.present? do%>
+      <%if @item.dimensions_with_stand.present? %>
           <tr>
             <th scope="row">Габаритные размеры с подставкой (ДxШxВ), мм</th>
             <td><%=@item.dimensions_with_stand%></td>
@@ -70,19 +70,19 @@
         <th scope="row">Макс. длина полена, см</th>
         <td><%=@item.max_length%></td>
       </tr>
-      <%if @item.type_of_digester_flooring.present? do%>
+      <%if @item.type_of_digester_flooring.present? %>
           <tr>
             <th scope="row">Тип варочного настила</th>
             <td><%=@item.type_of_digester_flooring%></td>
           </tr>
       <%end%>
-      <%if @item.location.present? do%>
+      <%if @item.location.present? %>
           <tr>
             <th scope="row">Размещение</th>
             <td><%=@item.location%></td>
           </tr>
       <%end%>
-      <%if @item.window_type.present? do%>
+      <%if @item.window_type.present? %>
           <tr>
             <th scope="row">Тип остекленения топливника</th>
             <td><%=@item.window_type%></td>
@@ -122,7 +122,7 @@
 </div>
 
 <script>
-    $(document).ready(function() {
+    $(cument).ready(function() {
         $("a.fancybox").fancybox();
         $(".owl-carousel").owlCarousel();
     });
