@@ -4,14 +4,7 @@ class Oven
 
 
   field :name
-  field :max_volume
-  field :dimensions
-  field :weight
-  field :weight_of_stones
-  field :volume_of_heater
-  field :max_length
   field :diameter
-
   field :description
 
   has_many :modifications

@@ -1,0 +1,39 @@
+<div class="ovens">
+  <div class="headerLine">
+    <div id="menuF" class="default">
+      <div class="container">
+        <div class="row">
+          <div class="logo col-md-4">
+            <div>
+              <a href="/">
+                <%=image_tag "logo.png", class:"logo"%>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="navmenu"style="text-align: center;">
+              <ul id="menu">
+                <li><a href="/#home">Главная</a></li>
+                <li><a href="/#about">О нас</a></li>
+                <li><a href="/#catalog">Каталог</a></li>
+                <li><a href="/#shares">Акции</a></li>
+                <li class="last"><a href="/#contact">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="text-center text-uppercase">Газовые печи для бани</h1>
+  </div>
+</div>
+<div class="col-md-12">
+  <%- @items.each do |item| %>
+      <%=link_to gas_oven_path (item.id) do%>
+          <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 item_image">
+            <div><%=image_tag item.image.url(:original), class:"img-responsive img-thumbnail"%></div>
+            <h3 class="text-center text-uppercase"><%=item.name%></h3>
+          </div>
+      <%end%>
+  <%end%>
+</div>

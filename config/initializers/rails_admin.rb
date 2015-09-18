@@ -46,4 +46,21 @@ RailsAdmin.config do |config|
       field :modifications
     end
   end
+
+  config.model GasOven do
+    edit do
+      field :name
+      field :maximum_volume_of_steam_room
+      field :dimensions
+      field :description, :ck_editor
+      field :image
+      field :weight
+      field :weight_of_stones
+      field :volume_of_heater
+      field :maximum_heat_output_of_the_burner
+      field :diameter
+      field :modifications
+    end
+  end
+
 end

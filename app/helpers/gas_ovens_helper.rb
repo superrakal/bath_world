@@ -1,0 +1,2 @@
+module GasOvensHelper
+end

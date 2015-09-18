@@ -6,5 +6,4 @@ class WoodOvensController < ApplicationController
   def show
     @item = WoodOven.find params[:id]
   end
-
 end
