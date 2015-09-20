@@ -48,12 +48,6 @@
         <th scope="row">Габаритные размеры (ДxШxВ), мм</th>
         <td><%=@item.dimensions%></td>
       </tr>
-      <%if @item.dimensions_with_stand.present? %>
-          <tr>
-            <th scope="row">Габаритные размеры с подставкой (ДxШxВ), мм</th>
-            <td><%=@item.dimensions_with_stand%></td>
-          </tr>
-      <%end%>
       <tr>
         <th scope="row">Мощность, кВт</th>
         <td><%=@item.power%></td>
