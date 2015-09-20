@@ -102,4 +102,23 @@ RailsAdmin.config do |config|
     end
   end
 
+  config.model ElectricOven do
+    edit do
+      field :name
+      field :maximum_volume_of_steam_room
+      field :dimensions
+      field :heater_power
+      field :weight
+      field :volume_of_furnace
+      field :max_length
+      field :recomended_height
+      field :output_v
+      field :max_electric_power
+      field :description, :ck_editor
+      field :image
+      field :diameter
+      field :modifications
+    end
+  end
+
 end
