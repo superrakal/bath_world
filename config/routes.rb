@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   resources :wood_ovens,     only:[:index, :show]
   resources :gas_ovens,      only:[:index, :show]
   resources :heating_ovens,  only:[:index, :show]
+  resources :fireplaces,     only:[:index, :show]
 
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   root 'welcome#index'

@@ -83,4 +83,23 @@ RailsAdmin.config do |config|
     end
   end
 
+  config.model Fireplace do
+    edit do
+      field :name
+      field :maximum_volume_of_steam_room
+      field :dimensions
+      field :power
+      field :weight
+      field :volume_of_furnace
+      field :max_length
+      field :volume_of_heat_exchanger
+      field :max_power_of_heat_exchanger
+      field :max_working_pressure_of_heat_exchanger
+      field :description, :ck_editor
+      field :image
+      field :diameter
+      field :modifications
+    end
+  end
+
 end
