@@ -1,0 +1,123 @@
+<div class="ovens">
+  <div class="headerLine">
+    <div id="menuF" class="default">
+      <div class="container">
+        <div class="row">
+          <div class="logo col-md-4">
+            <div>
+              <a href="/">
+                <%=image_tag "logo.png", class:"logo"%>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="navmenu"style="text-align: center;">
+              <ul id="menu">
+                <li><a href="/#home">Главная</a></li>
+                <li><a href="/#about">О нас</a></li>
+                <li><a href="/#catalog">Каталог</a></li>
+                <li><a href="/#shares">Акции</a></li>
+                <li class="last"><a href="/#contact">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="text-center text-uppercase"><%=@item.name%></h1>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 image">
+    <%=image_tag @item.image.url, class:"img-thumbnail img-responsive"%>
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 properties">
+    <table class="table table-bordered">
+      <thead>
+      <tr>
+        <th>Характеристика</th>
+        <th>Значение</th>
+      </tr>
+      </thead>
+      <tbody>
+      <%if @item.max_volume.present? %>
+          <tr>
+            <th scope="row">Макс. объем отапливаемого помещения, куб м.</th>
+            <td><%=@item.max_volume%></td>
+          </tr>
+      <% end %>
+      <tr>
+        <th scope="row">Габаритные размеры (ДxШxВ), мм</th>
+        <td><%=@item.dimensions%></td>
+      </tr>
+      <%if @item.power.present? %>
+          <tr>
+            <th scope="row">Мощность, кВт</th>
+            <td><%=@item.power%></td>
+          </tr>
+      <% end %>
+      <tr>
+        <th scope="row">Масса печи, кг</th>
+        <td><%=@item.weight%></td>
+      </tr>
+      <tr>
+        <th scope="row">Объем топки, л</th>
+        <td><%=@item.volume_of_heater%></td>
+      </tr>
+      <%if @item.max_length.present? %>
+          <tr>
+            <th scope="row">Макс. длина полена, см</th>
+            <td><%=@item.max_length%></td>
+          </tr>
+      <% end %>
+      <tr>
+        <th scope="row">Диаметр дымохода, мм</th>
+        <td><%=@item.diameter%></td>
+      </tr>
+      <%if @item.sum_power.present? %>
+          <tr>
+            <th scope="row">Суммарная мощность блока ТЭН, кВт</th>
+            <td><%=@item.sum_power%></td>
+          </tr>
+      <% end %>
+      <tr>
+        <th scope="row">Количество труб дымлхода в комплекте, шт</th>
+        <td><%=@item.tubes_count%></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <%if @item.modifications.count > 0%>
+      <div class="col-md-12 sub-items">
+        <div class="container-fluid">
+          <h3 class="text-center text-uppercase">Модификации</h3>
+          <hr>
+          <div class="owl-carousel">
+            <%-@item.modifications.each do |modification|%>
+
+                <div class="sub-item">
+                  <a class="fancybox" href=<%=modification.image.url%> rel="group" title="<%=modification.name %>">
+                    <%=image_tag modification.image, class:"img-thumbnail img-responsive"%>
+                  </a>
+                </div>
+            <%end%>
+          </div>
+          <hr>
+        </div>
+      </div>
+  <%end%>
+  <div class="col-md-12 description">
+    <h3 class="text-center text-uppercase">Описание</h3>
+    <blockquote>
+      <p><%=@item.description%></p>
+    </blockquote>
+  </div>
+
+</div>
+
+<script>
+    $(document).ready(function() {
+        $("a.fancybox").fancybox();
+        $(".owl-carousel").owlCarousel();
+    });
+</script>

@@ -147,4 +147,38 @@ RailsAdmin.config do |config|
     end
   end
 
+  config.model Boiler do
+    edit do
+      field :name
+      field :max_volume
+      field :dimensions
+      field :power
+      field :weight
+      field :volume_of_heater
+      field :max_length
+      field :sum_heater
+      field :tubes_count
+      field :description, :ck_editor
+      field :image
+      field :diameter
+      field :modifications
+    end
+  end
+
+  config.model Mangal do
+    edit do
+      field :name
+      field :dimensions
+      field :dimensions_bottom
+      field :weight
+      field :max_weight
+      field :volume_heater
+      field :volume_camera
+      field :description, :ck_editor
+      field :image
+      field :diameter
+      field :modifications
+    end
+  end
+
 end
