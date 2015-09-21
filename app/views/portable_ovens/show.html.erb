@@ -74,10 +74,10 @@
         <th scope="row">Диаметр дымохода, мм</th>
         <td><%=@item.diameter%></td>
       </tr>
-      <%if @item.sum_power.present? %>
+      <%if @item.sum_heater.present? %>
           <tr>
             <th scope="row">Суммарная мощность блока ТЭН, кВт</th>
-            <td><%=@item.sum_power%></td>
+            <td><%=@item.sum_heater%></td>
           </tr>
       <% end %>
       <tr>
