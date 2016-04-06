@@ -9,6 +9,6 @@ Rails.application.routes.draw do
   resources :portable_ovens, only:[:index, :show]
   resources :mangals,        only:[:index, :show]
 
-  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  # mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   root 'welcome#index'
 end

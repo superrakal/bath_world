@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Банный Мир</title>
+  <title>Банный Мир -  товары для бань и саун</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Банный мир - товары для бань и саун в городе Усть-Каменогорск">
+  <meta name="keywords" content="Печи для бань, котлы отопления, буржуйки, трубы, баки для воды, баня, сауна, вагонка, полог, полковая доска, пропитки, термометр, масло для бани, шайки, ушаты, веники, камень для бань, термофор, двери, отделочные материалы">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
   <%= javascript_include_tag 'jquery-1.8.3.min.js', 'data-turbolinks-track' => true %>
@@ -21,9 +24,6 @@
   <%= favicon_link_tag%>
 
   <script>
-      $(document).ready(function() {
-          $("body").niceScroll({scrollspeed: 0.01});
-      });
       jQuery(function(){
           jQuery('#camera_wrap_1').camera({
               transPeriod: 500,
@@ -42,6 +42,7 @@
 <body>
 
 <%= yield %>
+
 <script>
     $(document).ready(function(){
         $(".bhide").click(function(){
@@ -118,7 +119,6 @@
             }
         });
     });
-    //jQuery
 </script>
 
 <script type="text/javascript" charset="utf-8">

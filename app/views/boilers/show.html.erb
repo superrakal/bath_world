@@ -16,7 +16,7 @@
                 <li><a href="/#home">Главная</a></li>
                 <li><a href="/#about">О нас</a></li>
                 <li><a href="/#catalog">Каталог</a></li>
-                <li><a href="/#shares">Акции</a></li>
+
                 <li class="last"><a href="/#contact">Контакты</a></li>
               </ul>
             </div>
@@ -40,78 +40,120 @@
       </tr>
       </thead>
       <tbody>
-      <tr>
-        <th scope="row">Макс. объем отапливаемого помещения, куб м.</th>
-        <td><%=@item.maximum_volume_of_steam_room%></td>
-      </tr>
-      <tr>
-        <th scope="row">Габаритные размеры (ДxШxВ), мм</th>
-        <td><%=@item.dimensions%></td>
-      </tr>
-      <tr>
-        <th scope="row">Мощность, кВт</th>
-        <td><%=@item.power%></td>
-      </tr>
-      <tr>
-        <th scope="row">Масса печи, кг</th>
-        <td><%=@item.weight%></td>
-      </tr>
-      <tr>
-        <th scope="row">Объем топки, л</th>
-        <td><%=@item.furnace_volume%></td>
-      </tr>
-      <tr>
-        <th scope="row">Объем водяного контура, л</th>
-        <td><%=@item.water_loop_volume%></td>
-      </tr>
-      <tr>
-        <th scope="row">Рабочее давление в системе, кгс/кв.см</th>
-        <td><%=@item.operating_system_pressure%></td>
-      </tr>
-      <tr>
-        <th scope="row">Макс. температура воды на выходе не более, С&deg;</th>
-        <td><%=@item.max_temp%></td>
-      </tr>
-      <tr>
-        <th scope="row">Номинальная температура оборотной воды на выходе в котел, С&deg;</th>
-        <td><%=@item.rated_temp%></td>
-      </tr>
-      <tr>
-        <th scope="row">Присоединительная резьба штуцеров для подвода и отвода воды, G</th>
-        <td><%=@item.thread%></td>
-      </tr>
-      <tr>
-        <th scope="row">Макс. длина полена, см</th>
-        <td><%=@item.max_length%></td>
-      </tr>
-      <tr>
-        <th scope="row">Суммарная мощность блока ТЭН, кВт</th>
-        <td><%=@item.sum_power%></td>
-      </tr>
-      <%if @item.art.present? %>
+        <%= if @item.maximum_volume_of_steam_room.present?%>
+          <tr>
+            <th scope="row">Макс. объем отапливаемого помещения, куб м.</th>
+            <td><%=@item.maximum_volume_of_steam_room%></td>
+          </tr>
+        <%end%>
+
+        <%= if @item.dimensions.present?%>
+          <tr>
+            <th scope="row">Габаритные размеры (ДxШxВ), мм</th>
+            <td><%=@item.dimensions%></td>
+          </tr>
+        <%end%>
+
+        <%= if @item.power.present?%>
+          <tr>
+            <th scope="row">Мощность, кВт</th>
+            <td><%=@item.power%></td>
+          </tr>
+        <%end%>
+
+        <%= if @item.weight.present?%>
+          <tr>
+            <th scope="row">Масса печи, кг</th>
+            <td><%=@item.weight%></td>
+          </tr>
+        <%end%>
+
+        <%= if @item.furnace_volume.present?%>
+          <tr>
+            <th scope="row">Объем топки, л</th>
+            <td><%=@item.furnace_volume%></td>
+          </tr>
+        <%end%>
+
+        <%= if @item.water_loop_volume.present?%>
+          <tr>
+            <th scope="row">Объем водяного контура, л</th>
+            <td><%=@item.water_loop_volume%></td>
+          </tr>
+        <%end%>
+
+        <%= if @item.operating_system_pressure.present?%>
+          <tr>
+            <th scope="row">Рабочее давление в системе, кгс/кв.см</th>
+            <td><%=@item.operating_system_pressure%></td>
+          </tr>
+        <%end%>
+
+        <%= if @item.max_temp.present?%>
+          <tr>
+            <th scope="row">Макс. температура воды на выходе не более, С&deg;</th>
+            <td><%=@item.max_temp%></td>
+          </tr>
+        <%end%>
+
+        <%= if @item.rated_temp.present?%>
+          <tr>
+            <th scope="row">Номинальная температура оборотной воды на выходе в котел, С&deg;</th>
+            <td><%=@item.rated_temp%></td>
+          </tr>
+        <%end%>
+
+        <%= if @item.thread.present?%>
+          <tr>
+            <th scope="row">Присоединительная резьба штуцеров для подвода и отвода воды, G</th>
+            <td><%=@item.thread%></td>
+          </tr>
+        <%end%>
+
+        <%= if @item.max_length.present?%>
+          <tr>
+            <th scope="row">Макс. длина полена, см</th>
+            <td><%=@item.max_length%></td>
+          </tr>
+        <%end%>
+
+        <%= if @item.sum_power.present?%>
+          <tr>
+            <th scope="row">Суммарная мощность блока ТЭН, кВт</th>
+            <td><%=@item.sum_power%></td>
+          </tr>
+        <%end%>
+
+        <%= if @item.art.present? %>
           <tr>
             <th scope="row">Наличие АРТ</th>
             <td><%=@item.art%></td>
           </tr>
-      <%end%>
-      <%if @item.ten.present? %>
+        <%end%>
+        <%= if @item.ten.present? %>
           <tr>
             <th scope="row">Наличие блока ТЭН</th>
             <td><%=@item.ten%></td>
           </tr>
-      <%end%>
-      <tr>
-        <th scope="row">Диаметр дымохода, мм</th>
-        <td><%=@item.diameter%></td>
-      </tr>
-      <tr>
-        <th scope="row">Рекомендуемая высота дымохода, м</th>
-        <td><%=@item.recomended_height%></td>
-      </tr>
-      <tr>
-        <th scope="row">Проем топочной дверцы, мм</th>
-        <td><%=@item.aperture%></td>
-      </tr>
+        <%end%>
+        <%= if @item.diameter.present? %>
+          <tr>
+            <th scope="row">Диаметр дымохода, мм</th>
+            <td><%=@item.diameter%></td>
+          </tr>
+        <%end%>
+        <%= if @item.recomended_height.present? %>
+          <tr>
+            <th scope="row">Рекомендуемая высота дымохода, м</th>
+            <td><%=@item.recomended_height%></td>
+          </tr>
+        <%end%>
+        <%= if @item.aperture.present? %>
+          <tr>
+            <th scope="row">Проем топочной дверцы, мм</th>
+            <td><%=@item.aperture%></td>
+          </tr>
+        <%end%>
       </tbody>
     </table>
   </div>
